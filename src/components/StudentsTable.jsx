@@ -12,7 +12,7 @@ const StudentsTable = (props) => {
   return (
     <div>
       <table id="table" className="table">
-        <thead>
+        <thead className={list.length > 0 ? "" : "hidden"}>
           <tr key="theader"><th>Name</th><th>Last name</th><th>Delete</th></tr>
         </thead>
         <tbody>

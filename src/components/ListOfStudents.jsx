@@ -32,14 +32,19 @@ const ListOfStudents = () => {
 
 
   return (
-    <div>
-      <RegisterForm
-        addName={addName}
-        addLastName={addLastName}
-        onAddStudent={onAddStudent} />
+    <div className="container">
+      <div className="row">
+        <RegisterForm
+          addName={addName}
+          addLastName={addLastName}
+          onAddStudent={onAddStudent} />
+      </div>
 
-      <StudentsTable list={list} setList={setList} />
-    </div>
+      <div className="row">
+        <StudentsTable list={list} setList={setList} />
+      </div>
+
+    </div >
   )
 }
 
