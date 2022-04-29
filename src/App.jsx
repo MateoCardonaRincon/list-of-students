@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="main-div">
-      <h1>List of Students Practice</h1>
+      <h1>List of Students — Practice</h1>
       <ListOfStudents />
     </div>
   )

@@ -20,7 +20,9 @@ const StudentsTable = (props) => {
             <td>{student.name}</td>
             <td>{student.lastName}</td>
             <td>
-              <button className="delete-button" onClick={(e) => { deleteStudent(e, index) }} type="button">✖</button>
+              <button className="delete-button"
+                onClick={(e) => { deleteStudent(e, index) }}
+                type="button">✖</button>
             </td>
           </tr>)}
         </tbody>

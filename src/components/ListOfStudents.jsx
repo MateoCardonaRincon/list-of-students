@@ -12,7 +12,6 @@ const ListOfStudents = () => {
         name,
         lastName
       }
-      console.log(name)
       setList([...list, student])
     }
   }
